@@ -24,7 +24,7 @@ public class ClassePrincipal {
         
         if(limite > 1){
             for (int cta = 1; cta < limite; cta++) {
-            serie = serie + " " + resultado;
+            serie = serie + ", " + resultado;
             resultado = anterior + atual;
             anterior = atual;
             atual = resultado;
