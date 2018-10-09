@@ -30,6 +30,7 @@ public class ClassePrincipal {
             atual = resultado;
             
             }
+        //caso o usuário coloque "0" para a quantidade de termos
         }else if (limite == 0) {
             serie = "vazio";
         }
